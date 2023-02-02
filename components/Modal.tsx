@@ -123,7 +123,7 @@ const Modal = () => {
                 <FaPlay className="h-7 w-7 text-black" />
                 Play
               </button>
-              <button className="modalButton" onClick={handleList}>
+              <button className="modalButton">
                 {addedToList ? (
                   <CheckIcon className="h-7 w-7" />
                 ) : (
